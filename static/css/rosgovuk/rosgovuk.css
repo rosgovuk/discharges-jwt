@@ -200,77 +200,77 @@ hr { display: block; background: #bfc1c3; border: 0; height: 1px; margin-top: 30
 
 .button[disabled="disabled"]:focus { outline: none; }
 
-.button-start, .button-get-started { font-family: "Lato", Arial, sans-serif; font-weight: 700; text-transform: none; font-size: 18px; line-height: 1.2; background-image: url("/images/icons/icon-pointer.png"); background-repeat: no-repeat; background-position: 100% 50%; padding: 0.36842em 2.15789em 0.21053em 0.84211em; }
+.button-start, .button-get-started { font-family: "Lato", Arial, sans-serif; font-weight: 700; text-transform: none; font-size: 18px; line-height: 1.2; background-image: url("../../images/icons/icon-pointer.png"); background-repeat: no-repeat; background-position: 100% 50%; padding: 0.36842em 2.15789em 0.21053em 0.84211em; }
 @media (min-width: 641px) { .button-start, .button-get-started { font-size: 24px; line-height: 1.25; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .button-start, .button-get-started { background-image: url("/images/icons/icon-pointer-2x.png"); background-size: 30px 19px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .button-start, .button-get-started { background-image: url("../../images/icons/icon-pointer-2x.png"); background-size: 30px 19px; } }
 
 .icon { display: inline-block; background-position: 0 0; background-repeat: no-repeat; }
 
-.icon-calendar { width: 27px; height: 27px; background-image: url("/images/icons/icon-calendar.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-calendar { background-image: url("/images/icons/icon-calendar-2x.png"); background-size: 100%; } }
+.icon-calendar { width: 27px; height: 27px; background-image: url("../../images/icons/icon-calendar.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-calendar { background-image: url("../../images/icons/icon-calendar-2x.png"); background-size: 100%; } }
 
-.icon-file-download { width: 30px; height: 39px; background-image: url("/images/icons/icon-file-download.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-file-download { background-image: url("/images/icons/icon-file-download-2x.png"); background-size: 100%; } }
+.icon-file-download { width: 30px; height: 39px; background-image: url("../../images/icons/icon-file-download.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-file-download { background-image: url("../../images/icons/icon-file-download-2x.png"); background-size: 100%; } }
 
-.icon-important { width: 35px; height: 35px; background-image: url("/images/icons/icon-important.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-important { background-image: url("/images/icons/icon-important-2x.png"); background-size: 100%; } }
+.icon-important { width: 35px; height: 35px; background-image: url("../../images/icons/icon-important.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-important { background-image: url("../../images/icons/icon-important-2x.png"); background-size: 100%; } }
 
-.icon-information { width: 27px; height: 27px; background-image: url("/images/icons/icon-information.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-information { background-image: url("/images/icons/icon-information-2x.png"); background-size: 100%; } }
+.icon-information { width: 27px; height: 27px; background-image: url("../../images/icons/icon-information.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-information { background-image: url("../../images/icons/icon-information-2x.png"); background-size: 100%; } }
 
-.icon-locator { width: 26px; height: 36px; background-image: url("/images/icons/icon-locator.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-locator { background-image: url("/images/icons/icon-locator-2x.png"); background-size: 100%; } }
+.icon-locator { width: 26px; height: 36px; background-image: url("../../images/icons/icon-locator.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-locator { background-image: url("../../images/icons/icon-locator-2x.png"); background-size: 100%; } }
 
-.icon-pointer { width: 30px; height: 19px; background-image: url("/images/icons/icon-pointer.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer { background-image: url("/images/icons/icon-pointer-2x.png"); background-size: 100%; } }
+.icon-pointer { width: 30px; height: 19px; background-image: url("../../images/icons/icon-pointer.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer { background-image: url("../../images/icons/icon-pointer-2x.png"); background-size: 100%; } }
 
-.icon-pointer-black { width: 23px; height: 23px; background-image: url("/images/icons/icon-pointer-black.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer-black { background-image: url("/images/icons/icon-pointer-black-2x.png"); background-size: 100%; } }
+.icon-pointer-black { width: 23px; height: 23px; background-image: url("../../images/icons/icon-pointer-black.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer-black { background-image: url("../../images/icons/icon-pointer-black-2x.png"); background-size: 100%; } }
 
-.icon-search { width: 30px; height: 22px; background-image: url("/images/icon-search.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-search { background-image: url("/images/icon-search-2x.png"); background-size: 100%; } }
+.icon-search { width: 30px; height: 22px; background-image: url("../../images/icon-search.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-search { background-image: url("../../images/icon-search-2x.png"); background-size: 100%; } }
 
-.icon-step-1 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-1.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-1 { background-image: url("/images/icon-steps/icon-step-1-2x.png"); background-size: 100%; } }
+.icon-step-1 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-1.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-1 { background-image: url("../../images/icon-steps/icon-step-1-2x.png"); background-size: 100%; } }
 
-.icon-step-2 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-2.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-2 { background-image: url("/images/icon-steps/icon-step-2-2x.png"); background-size: 100%; } }
+.icon-step-2 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-2.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-2 { background-image: url("../../images/icon-steps/icon-step-2-2x.png"); background-size: 100%; } }
 
-.icon-step-3 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-3.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-3 { background-image: url("/images/icon-steps/icon-step-3-2x.png"); background-size: 100%; } }
+.icon-step-3 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-3.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-3 { background-image: url("../../images/icon-steps/icon-step-3-2x.png"); background-size: 100%; } }
 
-.icon-step-4 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-4.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-4 { background-image: url("/images/icon-steps/icon-step-4-2x.png"); background-size: 100%; } }
+.icon-step-4 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-4.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-4 { background-image: url("../../images/icon-steps/icon-step-4-2x.png"); background-size: 100%; } }
 
-.icon-step-5 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-5.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-5 { background-image: url("/images/icon-steps/icon-step-5-2x.png"); background-size: 100%; } }
+.icon-step-5 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-5.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-5 { background-image: url("../../images/icon-steps/icon-step-5-2x.png"); background-size: 100%; } }
 
-.icon-step-6 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-6.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-6 { background-image: url("/images/icon-steps/icon-step-6-2x.png"); background-size: 100%; } }
+.icon-step-6 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-6.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-6 { background-image: url("../../images/icon-steps/icon-step-6-2x.png"); background-size: 100%; } }
 
-.icon-step-7 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-7.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-7 { background-image: url("/images/icon-steps/icon-step-7-2x.png"); background-size: 100%; } }
+.icon-step-7 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-7.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-7 { background-image: url("../../images/icon-steps/icon-step-7-2x.png"); background-size: 100%; } }
 
-.icon-step-8 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-8.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-8 { background-image: url("/images/icon-steps/icon-step-8-2x.png"); background-size: 100%; } }
+.icon-step-8 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-8.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-8 { background-image: url("../../images/icon-steps/icon-step-8-2x.png"); background-size: 100%; } }
 
-.icon-step-9 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-9.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-9 { background-image: url("/images/icon-steps/icon-step-9-2x.png"); background-size: 100%; } }
+.icon-step-9 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-9.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-9 { background-image: url("../../images/icon-steps/icon-step-9-2x.png"); background-size: 100%; } }
 
-.icon-step-10 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-10.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-10 { background-image: url("/images/icon-steps/icon-step-10-2x.png"); background-size: 100%; } }
+.icon-step-10 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-10.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-10 { background-image: url("../../images/icon-steps/icon-step-10-2x.png"); background-size: 100%; } }
 
-.icon-step-11 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-11.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-11 { background-image: url("/images/icon-steps/icon-step-11-2x.png"); background-size: 100%; } }
+.icon-step-11 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-11.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-11 { background-image: url("../../images/icon-steps/icon-step-11-2x.png"); background-size: 100%; } }
 
-.icon-step-12 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-12.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-12 { background-image: url("/images/icon-steps/icon-step-12-2x.png"); background-size: 100%; } }
+.icon-step-12 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-12.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-12 { background-image: url("../../images/icon-steps/icon-step-12-2x.png"); background-size: 100%; } }
 
-.icon-step-13 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-13.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-13 { background-image: url("/images/icon-steps/icon-step-13-2x.png"); background-size: 100%; } }
+.icon-step-13 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-13.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-13 { background-image: url("../../images/icon-steps/icon-step-13-2x.png"); background-size: 100%; } }
 
-.icon-step-14 { width: 23px; height: 23px; background-image: url("/images/icon-steps/icon-step-14.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-14 { background-image: url("/images/icon-steps/icon-step-14-2x.png"); background-size: 100%; } }
+.icon-step-14 { width: 23px; height: 23px; background-image: url("../../images/icon-steps/icon-step-14.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-step-14 { background-image: url("../../images/icon-steps/icon-step-14-2x.png"); background-size: 100%; } }
 
 .circle { display: inline-block; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; background: #0b0c0c; color: #fff; font-family: "Lato", Arial, sans-serif; font-size: 12px; font-weight: bold; text-align: center; }
 
@@ -429,9 +429,9 @@ input[type=number] { -moz-appearance: textfield; }
 .error-summary .error-summary-list a { color: #b10e1e; font-weight: bold; text-decoration: underline; }
 
 .breadcrumbs { padding-top: 0.75em; padding-bottom: 0.75em; }
-.breadcrumbs li { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; float: left; background-image: url("/images/icons/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; list-style: none; margin-left: 0.6em; margin-bottom: 0.4em; padding-left: 0.9em; }
+.breadcrumbs li { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; float: left; background-image: url("../../images/icons/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; list-style: none; margin-left: 0.6em; margin-bottom: 0.4em; padding-left: 0.9em; }
 @media (min-width: 641px) { .breadcrumbs li { font-size: 16px; line-height: 1.25; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .breadcrumbs li { background-image: url("/images/icons/separator-2x.png"); background-size: 6px 11px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .breadcrumbs li { background-image: url("../../images/icons/separator-2x.png"); background-size: 6px 11px; } }
 .breadcrumbs li:first-child { background-image: none; margin-left: 0; padding-left: 0; }
 .breadcrumbs a { color: #0b0c0c; }
 
@@ -635,16 +635,16 @@ input:focus, textarea:focus, select:focus, button:focus { outline: 3px solid #ff
 @media (min-width: 641px) { #footer .footer-meta .footer-meta-inner .open-government-licence { padding-left: 53px; } }
 #footer .footer-meta .footer-meta-inner .open-government-licence .logo { margin-bottom: 1em; padding-top: 0; }
 @media (min-width: 641px) { #footer .footer-meta .footer-meta-inner .open-government-licence .logo { position: absolute; left: 0; top: 0; width: 41px; height: 100%; } }
-#footer .footer-meta .footer-meta-inner .open-government-licence .logo a { display: block; width: 41px; height: 17px; overflow: hidden; text-indent: -999em; background: url("/images/open-government-licence.png") 0 0 no-repeat; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #footer .footer-meta .footer-meta-inner .open-government-licence .logo a { background-image: url("/images/open-government-licence_2x.png"); background-size: 41px 17px; } }
+#footer .footer-meta .footer-meta-inner .open-government-licence .logo a { display: block; width: 41px; height: 17px; overflow: hidden; text-indent: -999em; background: url("../../images/open-government-licence.png") 0 0 no-repeat; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #footer .footer-meta .footer-meta-inner .open-government-licence .logo a { background-image: url("../../images/open-government-licence_2x.png"); background-size: 41px 17px; } }
 #footer .footer-meta .footer-meta-inner .open-government-licence p { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; margin: 0; padding-top: 0.1em; }
 @media (min-width: 641px) { #footer .footer-meta .footer-meta-inner .open-government-licence p { font-size: 16px; line-height: 1.25; } }
 #footer .footer-meta .copyright { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; margin: 30px 0 0 0; width: 100%; display: block; }
 @media (min-width: 641px) { #footer .footer-meta .copyright { font-size: 16px; line-height: 1.25; } }
 @media (min-width: 641px) { #footer .footer-meta .copyright { display: inline-block; text-align: inherit; width: 25%; padding-top: 15px; margin-top: 0; } }
-#footer .footer-meta .copyright a { display: block; background-image: url("/images/crests/govuk-crest.png"); background-repeat: no-repeat; background-position: 50% 0%; text-align: center; text-decoration: none; padding: 115px 0 0 0; }
+#footer .footer-meta .copyright a { display: block; background-image: url("../../images/crests/govuk-crest.png"); background-repeat: no-repeat; background-position: 50% 0%; text-align: center; text-decoration: none; padding: 115px 0 0 0; }
 @media (min-width: 641px) { #footer .footer-meta .copyright a { background-position: 100% 0%; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #footer .footer-meta .copyright a { background-image: url("/images/crests/govuk-crest-2x.png"); background-size: 125px 102px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { #footer .footer-meta .copyright a { background-image: url("../../images/crests/govuk-crest-2x.png"); background-size: 125px 102px; } }
 @media (min-width: 641px) { #footer .footer-meta .copyright a { text-align: right; } }
 
 .appstatus { background-color: #005ea5; color: #fff; margin-bottom: 1.05263em; padding: 2em 2em 0.94737em 2em; }
@@ -722,17 +722,17 @@ input:focus, textarea:focus, select:focus, button:focus { outline: 3px solid #ff
 .dialog-actions .button { width: auto; }
 
 .icon { background-size: 100%; background-repeat: no-repeat; cursor: default; display: block; height: 22px; text-align: center; vertical-align: middle; width: 22px; }
-.icon-close { background-image: url("/images/icons/icon-close.png"); display: block; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-close { background-image: url("/images/icons/icon-close-2x.png"); background-size: 100%; } }
-.icon-tick { background-image: url("../images/icons/icon-tick.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-tick { background-image: url("../images/icons/icon-tick-2x.png"); background-size: 100%; } }
-.icon-cross { background-image: url("../images/icons/icon-cross.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-cross { background-image: url("../images/icons/icon-cross-2x.png"); background-size: 100%; } }
-.icon-switch { background-image: url("../images/icons/icon-switch.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-switch { background-image: url("../images/icons/icon-switch-2x.png"); background-size: 100%; } }
+.icon-close { background-image: url("../../images/icons/icon-close.png"); display: block; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-close { background-image: url("../../images/icons/icon-close-2x.png"); background-size: 100%; } }
+.icon-tick { background-image: url("../../images/icons/icon-tick.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-tick { background-image: url("../../images/icons/icon-tick-2x.png"); background-size: 100%; } }
+.icon-cross { background-image: url("../../images/icons/icon-cross.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-cross { background-image: url("../../images/icons/icon-cross-2x.png"); background-size: 100%; } }
+.icon-switch { background-image: url("../../images/icons/icon-switch.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-switch { background-image: url("../../images/icons/icon-switch-2x.png"); background-size: 100%; } }
 
-.icon-lock, .icon-deactivate { background-image: url("../images/icons/statuses.png"); background-size: auto; float: left; margin-right: 10px; overflow: hidden; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-lock, .icon-deactivate { background-image: url("../images/icons/statuses-2x.png"); background-size: 200%; } }
+.icon-lock, .icon-deactivate { background-image: url("../../images/icons/statuses.png"); background-size: auto; float: left; margin-right: 10px; overflow: hidden; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-lock, .icon-deactivate { background-image: url("../../images/icons/statuses-2x.png"); background-size: 200%; } }
 
 .icon-lock { background-position: 0 0; }
 
@@ -842,7 +842,7 @@ svg .domain { fill: #FFF; }
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH -------------------------- */
-@font-face { font-family: 'FontAwesome'; src: url("../vendor/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0"); src: url("../vendor/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../vendor/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../vendor/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FontAwesome'; src: url("vendor/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0"); src: url("vendor/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("vendor/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("vendor/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; }
 .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 /* makes the font 33% larger relative to the icon container */
