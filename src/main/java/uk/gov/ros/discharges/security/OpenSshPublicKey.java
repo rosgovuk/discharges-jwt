@@ -1,5 +1,6 @@
 package uk.gov.ros.discharges.security;
 
+import net.schmizz.sshj.common.Buffer;
 import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.jce.ECNamedCurveTable;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
@@ -22,7 +23,7 @@ import java.security.spec.RSAPublicKeySpec;
  * <li>https://stackoverflow.com/questions/44829426/can-i-create-a-jce-ecpublickey-from-a-q-value-from-an-openssh-public-key-and-ecp</li>
  * </ul>
  */
-public class AuthorizedKeysDecoder {
+public class OpenSshPublicKeyDecoder {
     private byte[] bytes;
     private int pos;
 
@@ -33,6 +34,18 @@ public class AuthorizedKeysDecoder {
         if (Security.getProvider("BC") == null) {
             Security.addProvider(new BouncyCastleProvider());
         }
+    }
+
+    /**
+     * Encodes a PublicKey to OpenSSH format, as found in id_xxx.pub, authorized_keys and the
+     * Github API signature for public keys (e.g. https://api.github.com/users/davidcarboni/keys)
+     *
+     * @param publicKey The key to be encoded.
+     * @return The encoded key, Base64 encoded.
+     */
+    public String encodePublicKey(PublicKey publicKey) {
+        byte[] b = new Buffer.PlainBuffer().putPublicKey(publicKey).getCompactData();
+        return Base64.encodeBase64String(b);
     }
 
     /**
