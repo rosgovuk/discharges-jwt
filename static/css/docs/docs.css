@@ -177,32 +177,32 @@ hr { display: block; background: #bfc1c3; border: 0; height: 1px; margin-top: 30
 
 .button[disabled="disabled"]:focus { outline: none; }
 
-.button-start, .button-get-started { font-family: "Lato", Arial, sans-serif; font-weight: 700; text-transform: none; font-size: 18px; line-height: 1.2; background-image: image-url("../../images/icons/icon-pointer.png"); background-repeat: no-repeat; background-position: 100% 50%; padding: 0.36842em 2.15789em 0.21053em 0.84211em; }
+.button-start, .button-get-started { font-family: "Lato", Arial, sans-serif; font-weight: 700; text-transform: none; font-size: 18px; line-height: 1.2; background-image: image-url("icons/icon-pointer.png"); background-repeat: no-repeat; background-position: 100% 50%; padding: 0.36842em 2.15789em 0.21053em 0.84211em; }
 @media (min-width: 641px) { .button-start, .button-get-started { font-size: 24px; line-height: 1.25; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .button-start, .button-get-started { background-image: image-url("../../images/icons/icon-pointer-2x.png"); background-size: 30px 19px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .button-start, .button-get-started { background-image: image-url("icons/icon-pointer-2x.png"); background-size: 30px 19px; } }
 
 .icon { display: inline-block; background-position: 0 0; background-repeat: no-repeat; }
 
-.icon-calendar { width: 27px; height: 27px; background-image: image-url("../../images/icons/icon-calendar.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-calendar { background-image: image-url("../../images/icons/icon-calendar-2x.png"); background-size: 100%; } }
+.icon-calendar { width: 27px; height: 27px; background-image: image-url("icons/icon-calendar.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-calendar { background-image: image-url("icons/icon-calendar-2x.png"); background-size: 100%; } }
 
-.icon-file-download { width: 30px; height: 39px; background-image: image-url("../../images/icons/icon-file-download.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-file-download { background-image: image-url("../../images/icons/icon-file-download-2x.png"); background-size: 100%; } }
+.icon-file-download { width: 30px; height: 39px; background-image: image-url("icons/icon-file-download.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-file-download { background-image: image-url("icons/icon-file-download-2x.png"); background-size: 100%; } }
 
-.icon-important { width: 35px; height: 35px; background-image: image-url("../../images/icons/icon-important.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-important { background-image: image-url("../../images/icons/icon-important-2x.png"); background-size: 100%; } }
+.icon-important { width: 35px; height: 35px; background-image: image-url("icons/icon-important.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-important { background-image: image-url("icons/icon-important-2x.png"); background-size: 100%; } }
 
-.icon-information { width: 27px; height: 27px; background-image: image-url("../../images/icons/icon-information.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-information { background-image: image-url("../../images/icons/icon-information-2x.png"); background-size: 100%; } }
+.icon-information { width: 27px; height: 27px; background-image: image-url("icons/icon-information.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-information { background-image: image-url("icons/icon-information-2x.png"); background-size: 100%; } }
 
-.icon-locator { width: 26px; height: 36px; background-image: image-url("../../images/icons/icon-locator.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-locator { background-image: image-url("../../images/icons/icon-locator-2x.png"); background-size: 100%; } }
+.icon-locator { width: 26px; height: 36px; background-image: image-url("icons/icon-locator.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-locator { background-image: image-url("icons/icon-locator-2x.png"); background-size: 100%; } }
 
-.icon-pointer { width: 30px; height: 19px; background-image: image-url("../../images/icons/icon-pointer.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer { background-image: image-url("../../images/icons/icon-pointer-2x.png"); background-size: 100%; } }
+.icon-pointer { width: 30px; height: 19px; background-image: image-url("icons/icon-pointer.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer { background-image: image-url("icons/icon-pointer-2x.png"); background-size: 100%; } }
 
-.icon-pointer-black { width: 23px; height: 23px; background-image: image-url("../../images/icons/icon-pointer-black.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer-black { background-image: image-url("../../images/icons/icon-pointer-black-2x.png"); background-size: 100%; } }
+.icon-pointer-black { width: 23px; height: 23px; background-image: image-url("icons/icon-pointer-black.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-pointer-black { background-image: image-url("icons/icon-pointer-black-2x.png"); background-size: 100%; } }
 
 .icon-search { width: 30px; height: 22px; background-image: image-url("icon-search.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .icon-search { background-image: image-url("icon-search-2x.png"); background-size: 100%; } }
@@ -406,9 +406,9 @@ input[type=number] { -moz-appearance: textfield; }
 .error-summary .error-summary-list a { color: #b10e1e; font-weight: bold; text-decoration: underline; }
 
 .breadcrumbs { padding-top: 0.75em; padding-bottom: 0.75em; }
-.breadcrumbs li { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; float: left; background-image: image-url("../../images/icons/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; list-style: none; margin-left: 0.6em; margin-bottom: 0.4em; padding-left: 0.9em; }
+.breadcrumbs li { font-family: "Lato", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.14286; float: left; background-image: image-url("icons/separator.png"); background-position: 0% 50%; background-repeat: no-repeat; list-style: none; margin-left: 0.6em; margin-bottom: 0.4em; padding-left: 0.9em; }
 @media (min-width: 641px) { .breadcrumbs li { font-size: 16px; line-height: 1.25; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .breadcrumbs li { background-image: image-url("../../images/icons/separator-2x.png"); background-size: 6px 11px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .breadcrumbs li { background-image: image-url("icons/separator-2x.png"); background-size: 6px 11px; } }
 .breadcrumbs li:first-child { background-image: none; margin-left: 0; padding-left: 0; }
 .breadcrumbs a { color: #0b0c0c; }
 
