@@ -1,0 +1,73 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Find your address") }}
+
+			<p>
+				<span class="form-label-bold">Postcode</span>
+				EH1 1EH {{> _assets/typography/link-page(label: "Change", url: "{{ link.pages-address-finder-enter-postcode }}") }}
+			</p>
+
+			<form>
+				<fieldset>
+					<legend class="visually-hidden">Find your address</legend>
+
+					<div class="form-group">
+						<label class="form-label-bold" for="select-an-address">Please select from the following addresses</label>
+						<select class="form-control" id="select-an-address">
+							<option value="">6 addresses found</option>
+							<option selected="selected" value="153/1 Wilson Street, Edinburgh EH1 1EH">153/1 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/2 Wilson Street, Edinburgh EH1 1EH">153/2 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/3 Wilson Street, Edinburgh EH1 1EH">153/3 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/4 Wilson Street, Edinburgh EH1 1EH">153/4 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/5 Wilson Street, Edinburgh EH1 1EH">153/5 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/6 Wilson Street, Edinburgh EH1 1EH">153/6 Wilson Street, Edinburgh EH1 1EH</option>
+						</select>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend class="visually-hidden">Selected address</legend>
+
+					<div class="form-group">
+						<label class="form-label-bold" for="house-name-number">Street</label>
+						<input class="form-control" type="text" id="house-name-number" value="153/1 Wilson Street">
+					</div>
+
+					<div class="form-group">
+						<label class="form-label-bold visually-hidden" for="address-line-2">Address line 2</label>
+						<input class="form-control" type="text" id="address-line-2">
+					</div>
+
+					<div class="form-group">
+						<label class="form-label-bold visually-hidden" for="address-line-3">Address line 3</label>
+						<input class="form-control" type="text" id="address-line-3">
+					</div>
+
+					<div class="form-group">
+						<label class="form-label-bold visually-hidden" for="town">Town</label>
+						<input class="form-control" type="text" id="town" value="Edinburgh">
+					</div>
+
+					<div class="form-group">
+						<label class="form-label-bold visually-hidden" for="county">County</label>
+						<input class="form-control" type="text" id="county" value="Midlothian">
+					</div>
+
+					<div class="form-group">
+						<label class="form-label-bold visually-hidden" for="postcode">Postcode</label>
+						<input class="form-control" type="text" id="postcode" value="EH1 1EH">
+					</div>
+				</fieldset>
+
+				{{> _assets/forms/button-primary(label: "Continue") }}
+			</form>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

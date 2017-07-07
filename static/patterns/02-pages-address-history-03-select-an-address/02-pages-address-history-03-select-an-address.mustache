@@ -1,0 +1,70 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Your address history") }}
+
+			<p>
+				<span class="form-label-bold">Postcode</span>
+				EH1 1EH {{> _assets/typography/link-page(label: "Change", url: "{{ link.pages-address-history-find-address }}") }}
+			</p>
+
+			<form action="{{ link.pages-playback-address }}" method="get">
+				<fieldset>
+					<legend class="visually-hidden">Your address history</legend>
+
+					<div class="form-group">
+						<label for="select-an-address">Please select from the following addresses</label>
+						<select class="form-control" id="select-an-address">
+							<option value="">6 addresses found</option>
+							<option value="153/1 Wilson Street, Edinburgh EH1 1EH">153/1 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/2 Wilson Street, Edinburgh EH1 1EH">153/2 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/3 Wilson Street, Edinburgh EH1 1EH">153/3 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/4 Wilson Street, Edinburgh EH1 1EH">153/4 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/5 Wilson Street, Edinburgh EH1 1EH">153/5 Wilson Street, Edinburgh EH1 1EH</option>
+							<option value="153/6 Wilson Street, Edinburgh EH1 1EH">153/6 Wilson Street, Edinburgh EH1 1EH</option>
+						</select>
+					</div>
+
+					<details class="form-group">
+						<summary>
+							<span class="summary">I can't find the address in this list</span>
+						</summary>
+
+						<div class="panel panel-border-narrow">
+							<p>Check that you've entered the correct postcode.</p>
+							<p>If the postcode is correct, please contact your {{> _assets/typography/link-external(label: "local authority", url: "https://www.mygov.scot/find-your-local-council/") }}</p>
+						</div>
+					</details>
+
+					<div class="form-group">
+						<fieldset>
+							<legend>
+								<span class="form-label-bold">When did you move here?</span>
+								<span class="form-hint" id="dob-hint">For example, 3 1980</span>
+							</legend>
+							<div class="form-date">
+								<div class="form-group form-group-month">
+									<label class="form-label" for="dob-month">Month</label>
+									<input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12">
+								</div>
+								<div class="form-group form-group-year">
+									<label class="form-label" for="dob-year">Year</label>
+									<input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" min="0" max="2016">
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					{{> _assets/forms/button-primary(label: "Continue") }}
+				</fieldset>
+			</form>
+
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

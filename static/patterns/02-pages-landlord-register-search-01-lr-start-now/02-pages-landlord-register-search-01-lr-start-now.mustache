@@ -1,0 +1,43 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  {{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> _assets/typography/h1(label: "Search the Scottish landlord register") }}
+
+      <p>Use this search to:</p>
+
+      <ul class="list list-bullet">
+				<li>see if a landlord is registered</li>
+				<li>find out who manages a property</li>
+				<li>check which local authority a property is registered in</li>
+			</ul>
+
+      {{> _assets/forms/button-start-now(url: "{{ link.pages-lr-search }}") }}
+
+      {{> _assets/typography/h2(label: "Before you start") }}
+
+      <p>You will need either a landlord registration number or the postcode of the rental property.</p>
+    </div>
+
+    <div class="column-third">
+      <aside class="govuk-related-items" role="complementary">
+      	<h2 class="heading-medium" id="subsection-title">Support</h2>
+      	<nav role="navigation" aria-labelledby="subsection-title">
+      		<ul class="font-xsmall">
+      			<li>
+      				<a href="http://www.royalmail.com/find-a-postcode" target="_blank" rel="external">Look up the postcode</a>
+      			</li>
+      			<li>
+      				<a href="https://www.landlordregistrationscotland.gov.uk/about" target="_blank" rel="external">About the landlord register</a>
+      			</li>
+      		</ul>
+      	</nav>
+      </aside>
+		</div>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}

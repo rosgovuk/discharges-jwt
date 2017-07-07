@@ -1,0 +1,45 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			<div class="collapsible collapsible-borders">
+				{{> _assets/typography/h1(label: "Messages") }}
+
+				<p>You have 2 new messages.</p>
+				
+				{{! Remove 'is-open' to close the collapsible item on page load }}
+				<div class="collapsible-item is-open">
+					<div class="collapsible-heading">
+						<h3>
+							<span class="collapsible-heading-primary">You have been given access to Agri Agents Ltd.</span> 
+							<span class="collapsible-heading-secondary">15 Sep 2014</span>
+						</h3>
+					</div>
+					<div class="collapsible-content">
+						<p>John Smith has given you permission to view and amend information about this business and make applications on their behalf.</p>
+						{{> _assets/typography/link-page(label: "Delete this message") }}
+					</div>
+				</div>
+
+				<div class="collapsible-item">
+					<div class="collapsible-heading">
+						<h3>
+							<span class="collapsible-heading-primary">You have been given access to Bodmin Agri Ltd.</span> 
+							<span class="collapsible-heading-secondary">10 Sep 2014</span>
+						</h3>
+					</div>
+					<div class="collapsible-content">
+						<p>John Smith has given you permission to view and amend information about this business and make applications on their behalf.</p>
+						{{> _assets/typography/link-page(label: "Delete this message") }}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

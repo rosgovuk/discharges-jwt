@@ -1,0 +1,37 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  <div class="phase-banner">
+  	<p>
+  		<strong class="phase-tag">BETA</strong>
+  		<span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+  	</p>
+  </div>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> _assets/typography/h1(label: "Service name") }}
+
+      <p>Use this service to:</p>
+
+      <ul class="list list-bullet">
+				<li>do something</li>
+				<li>update your name, address and other details</li>
+				<li>you need to do this to do something else</li>
+			</ul>
+
+      {{> _assets/forms/button-start-now(url: "#") }}
+
+      {{> _assets/typography/h2(label: "Before you start") }}
+
+      <p>You can also {{> _assets/typography/link-page(label: "register by post", url: "#") }}.</p>
+      <p>You can't register for this service if you're in the UK illegally.</p>
+    </div>
+
+    <div class="column-third">
+			{{> _assets/components/related-items }}
+		</div>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}

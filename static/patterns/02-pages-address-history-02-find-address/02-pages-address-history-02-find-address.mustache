@@ -1,0 +1,23 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Your address history") }}
+			
+			<form action="{{ link.pages-select-an-address }}" method="get">
+				{{> _assets/forms/input-text-default(for-id: "postcode", label: "Postcode") }}
+
+				<div class="form-group">
+					{{> _assets/forms/button-primary(label: "Find address") }}
+				</div>
+			</form>
+
+			<p>{{> _assets/typography/link-external(label: "Don't know the postcode", url: "http://www.royalmail.com/find-a-postcode") }}</p>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

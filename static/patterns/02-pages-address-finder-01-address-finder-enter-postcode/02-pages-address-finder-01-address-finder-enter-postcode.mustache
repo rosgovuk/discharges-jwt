@@ -1,0 +1,22 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Find your address") }}
+
+			<form action="{{ link.pages-address-finder-select-address }}" method="get">
+				<fieldset>
+					<legend class="visually-hidden">Find your address</legend>
+
+					{{> _assets/forms/input-text-default(for-id: "postcode", label: "Postcode") }}
+					{{> _assets/forms/button-primary(label: "Find UK address") }}
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

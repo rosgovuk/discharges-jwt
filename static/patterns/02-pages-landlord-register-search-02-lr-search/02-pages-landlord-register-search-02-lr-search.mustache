@@ -1,0 +1,71 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  <div class="phase-banner">
+  	<p>
+  		<strong class="phase-tag">BETA</strong>
+  		<span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+  	</p>
+  </div>
+
+  <div class="column-two-thirds">
+    {{> _assets/typography/h1(label: "Search the landlord register") }}
+
+    {{> _assets/typography/h2(label: "Search for a rental property registration by postcode to find out:") }}
+    <ul class="list list-bullet">
+      <li>who owns the property</li>
+      <li>if anyone manages the property on their behalf</li>
+      <li>which local authority the property is in</li>
+      <li>contact address for that property</li>
+    </ul>
+
+    {{> _assets/typography/h2(label: "Search for a landlord registration number to find out:") }}
+    <ul class="list list-bullet">
+      <li>if the landlord has a valid registration</li>
+      <li>who that registration number belongs to</li>
+      <li>which local authority the landlord is registered with</li>
+    </ul>
+
+    {{> _assets/typography/h2(label: "How do you want to be contacted?") }}
+
+    <form>
+      <div class="form-group">
+        <fieldset>
+          <legend class="visually-hidden">How do you want to be contacted?</legend>
+
+          {{> _assets/forms/input-radio(for-id: "search-by-postcode", label: "Rental property postcode", data-target: true) }}
+          {{> _assets/forms/input-text-inset(for-id: "postcode", label: "Postcode", target: "search-by-postcode") }}
+
+          {{> _assets/forms/input-radio(for-id: "search-by-registration-number", label: "Landlord registration number", data-target: true) }}
+          {{> _assets/forms/input-text-inset(for-id: "registration-number", label: "Registration number", target: "search-by-registration-number") }}
+        </fieldset>
+      </div>
+
+      <input class="button" id="search-the-register" type="submit" value="Search the register">
+    </form>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}
+
+
+<!-- DO NOT COPY FOR PRODUCTION -->
+<style>
+  #search-the-register { visibility: hidden; }
+</style>
+
+<script>
+  var ROSGOVUK = ROSGOVUK || {},
+      searchByPostCode = document.getElementById('search-by-postcode'),
+      searchByRegistrationNumber = document.getElementById('search-by-registration-number'),
+      searchBtn = document.getElementById('search-the-register');
+
+  ROSGOVUK.radioConditional = function() {
+    if(searchByPostCode.checked || searchByRegistrationNumber.checked) {
+      searchBtn.style.visibility = 'visible';
+    }
+  };
+
+
+  searchByPostCode.addEventListener('click', ROSGOVUK.radioConditional, false);
+</script>

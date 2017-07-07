@@ -1,0 +1,28 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Your address history") }}
+
+			<p>We need to know your addresses for the last five years, with no gaps or overlaps.</p>
+
+			<form action="{{ link.pages-find-address }}" method="get">
+				<div class="form-group">
+					<fieldset class="inline">
+						<legend class="heading-medium">Is the address in Scotland?</legend>
+
+						{{> _assets/forms/input-radio(for-id: "yes-in-scotland", group: "address-in-scotland", label: "Yes") }}
+						{{> _assets/forms/input-radio(for-id: "no-in-scotland", group: "address-in-scotland", label: "No") }}
+					</fieldset>
+				</div>
+
+				{{> _assets/forms/button-primary(label: "Continue") }}
+			</form>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

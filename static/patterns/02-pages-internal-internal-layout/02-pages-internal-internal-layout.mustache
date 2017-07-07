@@ -1,0 +1,32 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main" class="internal">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "INTERNAL - Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-one-third left-nav">
+      <nav>
+        <ol role="menubar">
+          <li role="menuitem">{{> _assets/typography/link-page(label: "Navigation 1", url: "#") }}</li>
+          <li aria-haspopup="true" role="menuitem" tabindex="0">
+            {{> _assets/typography/link-page(label: "Navigation 2", url: "#") }}
+
+            <ul class="panel panel-border-narrow" aria-hidden="true">
+              <li>{{> _assets/typography/link-page(label: "sub-menu 1", url: "#") }}</li>
+              <li>{{> _assets/typography/link-page(label: "sub-menu 2", url: "#") }}</li>
+              <li>{{> _assets/typography/link-page(label: "sub-menu 3", url: "#") }}</li>
+            </ul>
+
+          </li>
+          <li role="menuitem">{{> _assets/typography/link-page(label: "Navigation 3", url: "#") }}</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="column-two-thirds">
+      {{> _assets/typography/h1(label: "Application name") }}
+    </div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

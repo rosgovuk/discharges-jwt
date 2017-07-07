@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="../../css/rosgovuk.min.css?1499077270638" media="screen"/>
+    <link rel="stylesheet" href="../../css/print.min.css?1499077270638" media="print"/>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    <!-- never cache patterns -->
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+
+    <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1499077270638" media="all">
+    <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1499077270638" media="all"/>
+
+    <!-- End Pattern Lab -->
+
+</head>
+<body class="js-enabled">
+<div class="form-group">
+    <label class="form-label" for="sample-textarea">Why can&#39;t you provide a National Insurance number?</label>
+    <textarea class="form-control form-control-3-4" name="textarea" id="sample-textarea" rows="5"></textarea>
+</div>
+
+<!--DO NOT REMOVE-->
+<script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"assets-textarea","lineagePath":"../../patterns/_assets-forms-textarea/_assets-forms-textarea.html"}],"lineage":[{"lineagePattern":"assets-textarea","lineagePath":"../../patterns/_assets-forms-textarea/_assets-forms-textarea.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"patterns","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Textarea","patternPartial":"patterns-textarea","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+
+
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+  
+  var scriptLoader = {
+    
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+    
+  }
+
+
+</script>
+
+<script id="pl-js-polyfill-insert-1499077270638">
+  (function() {
+    if (self != top) {
+      var cb = '1499077270638';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+
+
+</script>
+
+<script id="pl-js-insert-1499077270638">
+  (function() {
+    if (self != top) {
+      var cb = '1499077270638';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+
+
+</script>
+
+<script src="../../js/govuk.min.js"></script>
+<script>
+    if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  {{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> 01-patterns/confirmation-banners/email }}
+
+      {{> _assets/typography/h2(label: "What happens next") }}
+      <p>We've sent your application to the corresponding local authority.</p>
+      <p>They will contact you either to confirm your registration, or to ask for more information.</p>
+      <p>If you have any questions about your application, please contact {{> _assets/typography/link-page(label: "your local authority", url: "#") }}.</p>
+      <p>{{> _assets/typography/link-page(label: "What did you think of this service?", url: "#") }} (takes 30 seconds)</p>
+    </div>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}

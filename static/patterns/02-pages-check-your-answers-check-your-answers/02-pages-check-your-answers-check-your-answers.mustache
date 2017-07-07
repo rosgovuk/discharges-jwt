@@ -1,0 +1,59 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  {{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> _assets/typography/h1(label: "Application summary")}}
+      {{> _assets/typography/text-inset(label: "Check your answers before continuing.") }}
+    </div>
+  </div>
+
+  <table class="check-your-answers">
+    <thead>
+      <tr>
+        <th colspan="3">
+          {{> _assets/typography/h2(label: "Company details")}}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Organisation name</td>
+        <td>Northwood</td>
+        <td class="change-answer">
+          <a href="#">Change</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Company registration number</td>
+        <td>SC123456789</td>
+        <td class="change-answer">
+          <a href="#">Change</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Organisation contact person</td>
+        <td>{{user.fullname}}</td>
+        <td class="change-answer">
+          <a href="#">Change</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> _assets/typography/h2(label: "Now send your application")}}
+
+      <p>By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.</p>
+
+      <div class="form-group">
+        <a href="{{link.pages-application-submitted}}" class="button">Accept and send application</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}

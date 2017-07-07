@@ -1,0 +1,22 @@
+<div class="dialog" id="{{ target-id }}" aria-hidden="true">
+  <div class="dialog-holder" aria-labelledby="aria-{{ target-id }}" aria-describedby="content-{{ target-id }}" role="alertdialog">
+    <div class="dialog-content" id="content-{{ target-id }}" role="document" tabindex="0">
+
+      <h1 class="dialog-heading" id="aria-{{ target-id }}">{{ title }}</h1>
+      
+      <form class="form">
+        <p>{{ message }}</p>
+
+        <div class="dialog-actions">
+          <button class="button" type="submit">{{ primary-cta }}</button>
+          <a class="dialog-cancel" href="#">{{ secondary-cta }}</a>
+        </div>
+
+        <button class="dialog-close" aria-label="close" type="button">
+          <img src="/images/icons/icon-close.png">
+        </button>
+        
+      </form>
+    </div>
+  </div>
+</div>

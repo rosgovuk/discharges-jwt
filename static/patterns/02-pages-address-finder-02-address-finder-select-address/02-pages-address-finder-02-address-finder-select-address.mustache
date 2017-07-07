@@ -1,0 +1,35 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+	{{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			{{> _assets/typography/h1(label: "Find your address") }}
+
+			<p>
+				<span class="form-label-bold">Postcode</span>
+				EH1 1EH {{> _assets/typography/link-page(label: "Change", url: "{{ link.pages-address-finder-enter-postcode }}") }}
+			</p>
+
+			<form action="{{ link.pages-address-finder-address-playback }}" method="get">
+				<fieldset>
+					<legend class="visually-hidden">Find your address</legend>
+
+					<div class="form-group">
+						<label class="form-label-bold" for="select-an-address">Please select from the following addresses</label>
+						<select class="form-control" id="select-an-address">
+							{{#forms.addresses}}
+							<option value="{{address}}">{{address}}</option>
+							{{/forms.addresses}}
+						</select>
+					</div>
+				</fieldset>
+
+				{{> _assets/forms/button-primary(label: "Continue") }}
+			</form>
+		</div>
+	</div>
+</main>
+
+{{> _assets/footer/default-footer }}

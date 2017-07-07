@@ -1,0 +1,1167 @@
+{
+  "version": 1,
+  "timestamp": 1499077270982,
+  "graph": {
+    "options": {
+      "directed": true,
+      "multigraph": false,
+      "compound": false
+    },
+    "nodes": [
+      {
+        "v": "01-patterns/alerts/default.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/alerts/positive.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/alerts/text-inset.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/alerts/text-warning.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/alerts/warning.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/confirmation-banners/default-confirmation.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/confirmation-banners/email.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-check-your-answers-application-submitted/02-pages-check-your-answers-application-submitted.html",
+          "lineagePattern": "pages-application-submitted"
+        }
+      },
+      {
+        "v": "01-patterns/confirmation-banners/reference.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/checkbox-default.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/drop-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/error-summary-box.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/primary-button-disabled.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/primary-button.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/radio-default.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/textarea.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/textfield-with-hint.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/forms/textfield.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/modal-dialogs/warning-dialog.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/pagination/first-item.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/pagination/last-item.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/pagination/middle-item.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/tables/table-default.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/tables/table-small.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/tables/table-sort.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-patterns/tables/table-summary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-guidance/01-introduction.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-guidance/02-using-the-pattern-library.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-guidance/03-colours-used.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/components/collapsibles.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/components/modal-dialog.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/components/phase-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-tabs-rpa-tabs/02-pages-tabs-rpa-tabs.html",
+          "lineagePattern": "pages-rpa-tabs"
+        }
+      },
+      {
+        "v": "_assets/components/related-items.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-start-now/02-pages-start-now.html",
+          "lineagePattern": "pages-start-now"
+        }
+      },
+      {
+        "v": "_assets/confirmation-banners/default-confirmation.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/confirmation-banners/email.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/confirmation-banners/reference.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/footer/default-footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-guidance-03-colours-used/03-guidance-03-colours-used.html",
+          "lineagePattern": "guidance-colours-used"
+        }
+      },
+      {
+        "v": "_assets/forms/button-primary.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-login/02-pages-login.html",
+          "lineagePattern": "pages-login"
+        }
+      },
+      {
+        "v": "_assets/forms/button-secondary.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-login/02-pages-login.html",
+          "lineagePattern": "pages-login"
+        }
+      },
+      {
+        "v": "_assets/forms/button-start-now.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-start-now/02-pages-start-now.html",
+          "lineagePattern": "pages-start-now"
+        }
+      },
+      {
+        "v": "_assets/forms/drop-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-patterns-forms-drop-list/01-patterns-forms-drop-list.html",
+          "lineagePattern": "patterns-drop-list"
+        }
+      },
+      {
+        "v": "_assets/forms/input-checkbox.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-patterns-forms-checkbox-default/01-patterns-forms-checkbox-default.html",
+          "lineagePattern": "patterns-checkbox-default"
+        }
+      },
+      {
+        "v": "_assets/forms/input-radio.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-landlord-register-search-02-lr-search/02-pages-landlord-register-search-02-lr-search.html",
+          "lineagePattern": "pages-lr-search"
+        }
+      },
+      {
+        "v": "_assets/forms/input-text-checkbox.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/forms/input-text-default.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-login/02-pages-login.html",
+          "lineagePattern": "pages-login"
+        }
+      },
+      {
+        "v": "_assets/forms/input-text-inset.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-landlord-register-search-02-lr-search/02-pages-landlord-register-search-02-lr-search.html",
+          "lineagePattern": "pages-lr-search"
+        }
+      },
+      {
+        "v": "_assets/forms/input-text-password.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/forms/textarea.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-patterns-forms-textarea/01-patterns-forms-textarea.html",
+          "lineagePattern": "patterns-textarea"
+        }
+      },
+      {
+        "v": "_assets/headers/default-header.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-guidance-03-colours-used/03-guidance-03-colours-used.html",
+          "lineagePattern": "guidance-colours-used"
+        }
+      },
+      {
+        "v": "_assets/typography/h1.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/_assets-confirmation-banners-reference/_assets-confirmation-banners-reference.html",
+          "lineagePattern": "assets-reference"
+        }
+      },
+      {
+        "v": "_assets/typography/h2.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-tabs-rpa-tabs/02-pages-tabs-rpa-tabs.html",
+          "lineagePattern": "pages-rpa-tabs"
+        }
+      },
+      {
+        "v": "_assets/typography/h3.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/h4.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/lede.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/link-back.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/link-external.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-address-history-03-select-an-address/02-pages-address-history-03-select-an-address.html",
+          "lineagePattern": "pages-select-an-address"
+        }
+      },
+      {
+        "v": "_assets/typography/link-icon.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/link-page.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/_assets-components-collapsibles/_assets-components-collapsibles.html",
+          "lineagePattern": "assets-collapsibles"
+        }
+      },
+      {
+        "v": "_assets/typography/list-bullet.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/list-default.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/list-number.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/modal-dialog-link.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/text-hidden.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "_assets/typography/text-inset.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-pages-check-your-answers-check-your-answers/02-pages-check-your-answers-check-your-answers.html",
+          "lineagePattern": "pages-check-your-answers"
+        }
+      },
+      {
+        "v": "_assets/typography/text-warning.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-patterns-alerts-text-warning/01-patterns-alerts-text-warning.html",
+          "lineagePattern": "patterns-text-warning"
+        }
+      },
+      {
+        "v": "/home/carbond/projects/pattern-library/source/_meta/_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "/home/carbond/projects/pattern-library/source/_meta/_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      }
+    ],
+    "edges": [
+      {
+        "v": "01-patterns/alerts/text-inset.mustache",
+        "w": "_assets/typography/text-inset.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/alerts/text-warning.mustache",
+        "w": "_assets/typography/text-warning.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/confirmation-banners/default-confirmation.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/confirmation-banners/email.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/confirmation-banners/reference.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/checkbox-default.mustache",
+        "w": "_assets/forms/input-checkbox.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/drop-list.mustache",
+        "w": "_assets/forms/drop-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/primary-button-disabled.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/primary-button.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/radio-default.mustache",
+        "w": "_assets/forms/input-radio.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/textarea.mustache",
+        "w": "_assets/forms/textarea.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/textfield-with-hint.mustache",
+        "w": "_assets/forms/input-text-default.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/forms/textfield.mustache",
+        "w": "_assets/forms/input-text-default.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-patterns/tables/table-summary.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/forms/input-text-default.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/01-address-finder-enter-postcode.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/02-address-finder-select-address.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-finder/03-address-finder-address-playback.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/forms/input-radio.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/01-address-in-scotland.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/forms/input-text-default.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/typography/link-external.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/02-find-address.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/typography/link-external.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/03-select-an-address.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/typography/text-inset.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/forms/input-radio.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/address-history/04-playback-address.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "01-patterns/confirmation-banners/email.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/application-submitted.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/typography/text-inset.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/check-your-answers/check-your-answers.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/collapsibles/rpa-collapsibles.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/internal/internal-layout.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/forms/button-start-now.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/01-lr-start-now.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/forms/input-radio.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/forms/input-text-inset.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/landlord-register-search/02-lr-search.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/forms/input-text-default.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/forms/button-primary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/forms/button-secondary.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/login.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/forms/button-start-now.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/components/related-items.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/start-now.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/components/phase-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/typography/h2.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-pages/tabs/rpa-tabs.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/01-introduction.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/01-introduction.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/02-using-the-pattern-library.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/02-using-the-pattern-library.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/03-colours-used.mustache",
+        "w": "_assets/headers/default-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-guidance/03-colours-used.mustache",
+        "w": "_assets/footer/default-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "_assets/components/collapsibles.mustache",
+        "w": "_assets/typography/link-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "_assets/confirmation-banners/default-confirmation.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "_assets/confirmation-banners/email.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      },
+      {
+        "v": "_assets/confirmation-banners/reference.mustache",
+        "w": "_assets/typography/h1.mustache",
+        "value": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{{> _assets/headers/default-header }}
+
+<main id="content" role="main">
+  {{> _assets/components/phase-banner(phase: "ALPHA", phase-desc: "Registers of Scotland - Pattern Library") }}
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      {{> _assets/typography/h1(label: "Sample RPA tabs") }}
+
+      <div class="tabs">
+        <div class="tabs-nav">
+          <ul class="tabs-list">
+            <li><a href="#before-you-start">Before you start</a></li>
+            <li><a href="#tab-2">Tab 2</a></li>
+            <li><a href="#tab-3">Tab 3</a></li>
+          </ul>
+        </div>
+
+        <div class="tabs-content">
+          <div class="tabs-panel" id="before-you-start">
+            <div class="tabs-panel-inner text">
+              {{> _assets/typography/h2(label: "Before you start") }}
+              <p>To get your first provisional driving licence online for a car, motorcycle or moped you must:</p>
+
+              <ul class="list list-bullet">
+                <li>be a resident of Great Britain - there's a different service in {{> _assets/typography/link-page(label: "Northern Ireland", url: "#") }}</li>
+                <li>meet the minimum age requirement</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tabs-panel" id="tab-2">
+            <div class="tabs-panel-inner text">
+              {{> _assets/typography/h2(label: "Tab 2") }}
+              <p>Some content would go here for tab 2.</p>
+            </div>
+          </div>
+
+          <div class="tabs-panel" id="tab-3">
+            <div class="tabs-panel-inner text">
+              {{> _assets/typography/h2(label: "Tab 3") }}
+              <p>Some content would go here for tab 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+{{> _assets/footer/default-footer }}
